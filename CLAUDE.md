@@ -8,8 +8,9 @@ This document provides essential context for AI assistants working with this cod
 
 - **Package:** `com.hackedbuce.aerialdream`
 - **Min SDK:** 21 (Android 5.0)
-- **Target SDK:** 34 (Android 14)
-- **Language:** Kotlin 1.9.0
+- **Target SDK:** 35 (Android 15)
+- **Language:** Kotlin 2.3.0
+- **Compose BOM:** 2026.01.00
 
 ## Repository Structure
 
@@ -129,16 +130,17 @@ fun `descriptive test name with backticks`() = runTest {
 ## Dependencies
 
 ### Core Libraries
-- **Kotlin Coroutines:** 1.7.3
-- **AndroidX Lifecycle:** 2.7.0 (ViewModel, LiveData)
-- **Retrofit:** 2.9.0 with GSON converter
-- **ExoPlayer (Media3):** 1.2.1
+- **Kotlin Coroutines:** 1.9.0
+- **AndroidX Lifecycle:** 2.8.7 (ViewModel, LiveData)
+- **Jetpack Compose:** BOM 2026.01.00 (Material3, UI, Foundation)
+- **Retrofit:** 2.11.0 with GSON converter
+- **ExoPlayer (Media3):** 1.5.1
 
 ### Testing Libraries
 - **JUnit:** 4.13.2
-- **Mockito:** 5.1.1
-- **Mockito-Kotlin:** 5.1.0
-- **Coroutines Test:** 1.7.3
+- **Mockito:** 5.14.2
+- **Mockito-Kotlin:** 5.4.0
+- **Coroutines Test:** 1.9.0
 
 ## Code Conventions
 
